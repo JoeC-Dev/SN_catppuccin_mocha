@@ -13,7 +13,12 @@ All 4 Catppuccin flavors are included:
 
 ## Installation
 
-To install a theme in Standard Notes, import the theme's `src/theme.css` as a custom theme via **Preferences → Appearance → Theme → Import**.
+Use the published GitHub Pages CSS URLs in Standard Notes:
+
+- Latte: `https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.latte-theme/src/theme.css`
+- Frappé: `https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.frappe-theme/src/theme.css`
+- Macchiato: `https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.macchiato-theme/src/theme.css`
+- Mocha: `https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.mocha-theme/src/theme.css`
 
 ## Building
 

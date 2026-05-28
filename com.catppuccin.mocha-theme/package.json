@@ -1,0 +1,26 @@
+{
+  "name": "@catppuccin/mocha-theme",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoeC-Dev/catpuccin_StandardNotes",
+    "directory": "com.catppuccin.mocha-theme"
+  },
+  "description": "Catppuccin Mocha theme for Standard Notes.",
+  "author": "JoeC-Dev",
+  "license": "MIT",
+  "main": "dist/theme.css",
+  "sn": {
+    "name": "Catppuccin Mocha",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/theme.css",
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp ext.json dist/"
+  },
+  "devDependencies": {
+    "shx": "^0.4.0"
+  }
+}
