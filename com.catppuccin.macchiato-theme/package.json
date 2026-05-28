@@ -6,21 +6,24 @@
     "url": "https://github.com/JoeC-Dev/catpuccin_StandardNotes",
     "directory": "com.catppuccin.macchiato-theme"
   },
-  "description": "Catppuccin Macchiato theme for Standard Notes.",
+  "main": "dist/dist.css",
   "author": "JoeC-Dev",
-  "license": "MIT",
-  "main": "dist/theme.css",
+  "publishConfig": {
+    "access": "public"
+  },
   "sn": {
     "name": "Catppuccin Macchiato",
     "content_type": "SN|Theme",
     "area": "themes",
-    "main": "dist/theme.css",
+    "main": "dist/dist.css",
     "showInGallery": true
   },
   "scripts": {
-    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp plugin.json dist/"
+    "build": "webpack --entry ./src/theme.css --config ../theme.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "shx": "^0.4.0"
+    "webpack": "*",
+    "webpack-cli": "*"
   }
 }

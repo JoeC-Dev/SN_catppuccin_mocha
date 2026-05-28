@@ -1,10 +1,10 @@
 {
-  "name": "@catppuccin/frappe-theme",
+  "name": "@catppuccin/mocha-theme",
   "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/JoeC-Dev/catpuccin_StandardNotes",
-    "directory": "com.catppuccin.frappe-theme"
+    "directory": "com.catppuccin.mocha-theme"
   },
   "main": "dist/dist.css",
   "author": "JoeC-Dev",
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "sn": {
-    "name": "Catppuccin Frappé",
+    "name": "Catppuccin Mocha",
     "content_type": "SN|Theme",
     "area": "themes",
     "main": "dist/dist.css",

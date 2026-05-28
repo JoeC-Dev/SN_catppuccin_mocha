@@ -17,7 +17,7 @@ To install a theme in Standard Notes, import the theme's `src/theme.css` as a cu
 
 ## Building
 
-Each theme directory contains a `package.json` with a build script that copies the CSS into a `dist/` folder alongside the `plugin.json`:
+Each theme directory contains a `package.json` modeled after the Standard Notes theme package format. The build script uses a top-level `theme.webpack.config.js` compiler config:
 
 ```bash
 cd com.catppuccin.mocha-theme
