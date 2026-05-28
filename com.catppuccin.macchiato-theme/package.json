@@ -1,0 +1,21 @@
+{
+  "name": "@catppuccin/macchiato-theme",
+  "version": "1.0.0",
+  "description": "Catppuccin Macchiato theme for Standard Notes.",
+  "author": "JoeC-Dev",
+  "license": "MIT",
+  "main": "dist/theme.css",
+  "sn": {
+    "name": "Catppuccin Macchiato",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "dist/theme.css",
+    "showInGallery": true
+  },
+  "scripts": {
+    "build": "shx rm -rf dist && shx mkdir -p dist && shx cp src/*.css dist/ && shx cp plugin.json dist/"
+  },
+  "devDependencies": {
+    "shx": "^0.4.0"
+  }
+}
