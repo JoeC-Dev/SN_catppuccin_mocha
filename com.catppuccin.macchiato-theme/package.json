@@ -1,6 +1,11 @@
 {
   "name": "@catppuccin/macchiato-theme",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoeC-Dev/catpuccin_StandardNotes",
+    "directory": "com.catppuccin.macchiato-theme"
+  },
   "description": "Catppuccin Macchiato theme for Standard Notes.",
   "author": "JoeC-Dev",
   "license": "MIT",

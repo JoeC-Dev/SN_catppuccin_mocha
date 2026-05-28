@@ -1,6 +1,11 @@
 {
   "name": "@catppuccin/mocha-theme",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoeC-Dev/catpuccin_StandardNotes",
+    "directory": "com.catppuccin.mocha-theme"
+  },
   "description": "Catppuccin Mocha theme for Standard Notes.",
   "author": "JoeC-Dev",
   "license": "MIT",
