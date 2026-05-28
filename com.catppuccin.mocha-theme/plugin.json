@@ -1,8 +1,8 @@
 {
-  "identifier": "com.catppuccin.mocha-theme",
-  "name": "Catppuccin Mocha",
+  "identifier": "com.catppuccin.macchiato-theme",
+  "name": "Catppuccin Macchiato",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
-  "url": "theme.css"
+  "url": "https://yourusername.github.io/repo-name/theme.css"
 }
