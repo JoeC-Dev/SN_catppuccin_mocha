@@ -14,7 +14,7 @@
     "name": "Catppuccin Mocha",
     "content_type": "SN|Theme",
     "area": "themes",
-    "main": "dist/theme.css",
+    "main": "src/theme.css",
     "showInGallery": true
   },
   "scripts": {
