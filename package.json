@@ -6,9 +6,6 @@
     "publishConfig": {
         "access": "public"
     },
-    "devDependencies": {
-        "webpack": "*"
-    },
     "sn": {
         "name": "Catppuccin Mocha",
         "content_type": "SN|Theme",
