@@ -1,30 +1,45 @@
-# Catppuccin for Standard Notes
+# Catppuccin Mocha for Standard Notes
 
-[Catppuccin](https://github.com/catppuccin/catppuccin) theming for [Standard Notes](https://standardnotes.com/).
-
-All 4 Catppuccin flavors are included:
-
-| Flavor | Type | Directory |
-|---|---|---|
-| 🌻 Latte | Light | `com.catppuccin.latte-theme` |
-| 🪴 Frappé | Dark | `com.catppuccin.frappe-theme` |
-| 🌺 Macchiato | Dark | `com.catppuccin.macchiato-theme` |
-| 🌿 Mocha | Dark | `com.catppuccin.mocha-theme` |
+A [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) theme for [Standard Notes](https://standardnotes.com/).
 
 ## Installation
 
-To install a theme in Standard Notes, import the theme's `src/theme.css` as a custom theme via **Preferences → Appearance → Theme → Import**.
+### Via URL (recommended)
+
+1. Open Standard Notes
+2. Go to **Preferences → Appearance**
+3. Select **Themes** and click **Import from URL**
+4. Paste the following URL:
+
+```
+https://joec-dev.github.io/SN_catppuccin_mocha/dist/theme.css
+```
+
+### Via Local File
+
+Download `dist/theme.css` from this repository and import it via **Preferences → Appearance → Themes → Import**.
 
 ## Building
 
-Each theme directory contains a `package.json` with a build script that copies the CSS into a `dist/` folder alongside the `plugin.json`:
+Install dependencies and run the webpack build:
 
 ```bash
-cd com.catppuccin.mocha-theme
 npm install
 npm run build
 ```
 
-## Color Palettes
+The compiled CSS will be output to `dist/theme.css`.
 
-The full Catppuccin color palette for each flavor is available at [catppuccin/catppuccin](https://github.com/catppuccin/catppuccin#-palette).
+## Color Palette
+
+This theme uses the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin#-palette) palette — a dark, soothing color scheme with warm tones.
+
+| Role | Color |
+|---|---|
+| Background | `#1e1e2e` (Base) |
+| Foreground | `#cdd6f4` (Text) |
+| Accent | `#cba6f7` (Mauve) |
+| Success | `#a6e3a1` (Green) |
+| Warning | `#fab387` (Peach) |
+| Danger | `#f38ba8` (Red) |
+
