@@ -4,5 +4,11 @@
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
-  "url": "https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.mocha-theme/src/theme.css"
+  "url": "https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.mocha-theme/src/theme.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#086DD6",
+    "foreground_color": "#ffffff",
+    "border_color": "#086DD6"
+  }
 }
