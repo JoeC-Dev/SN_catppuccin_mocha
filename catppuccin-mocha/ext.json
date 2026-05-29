@@ -1,10 +1,12 @@
 {
-  "identifier": "com.catppuccin.macchiato-theme",
-  "name": "Catppuccin Macchiato",
+  "identifier": "com.catppuccin.mocha-theme",
+  "name": "Catppuccin Mocha",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
-  "url": "https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.mocha-theme/src/theme.css",
+  "url": "https://joec-dev.github.io/catpuccin_StandardNotes/com.catppuccin.mocha-theme/dist/theme.css",
+  "download_url": "https://github.com/JoeC-Dev/catpuccin_StandardNotes/archive/refs/tags/1.0.0.zip",
+  "latest_url": "https://joec-dev.github.io/catpuccin_StandardNotes/catppuccin-mocha/ext.json",
   "dock_icon": {
     "type": "circle",
     "background_color": "#086DD6",
