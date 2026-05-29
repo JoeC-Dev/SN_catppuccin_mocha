@@ -12,12 +12,8 @@ A [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) theme for [Standa
 4. Paste the following URL:
 
 ```
-https://joec-dev.github.io/SN_catppuccin_mocha/dist/theme.css
+https://listed.to/p/y3SJQstFfx
 ```
-
-### Via Local File
-
-Download `dist/theme.css` from this repository and import it via **Preferences → Appearance → Themes → Import**.
 
 ## Building
 
