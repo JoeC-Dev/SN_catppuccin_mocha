@@ -10,7 +10,7 @@
         "name": "Catppuccin Mocha",
         "content_type": "SN|Theme",
         "area": "themes",
-        "main": "dist/dist.css",
+        "main": "dist/theme.css",
         "showInGallery": true
     },
     "scripts": {
