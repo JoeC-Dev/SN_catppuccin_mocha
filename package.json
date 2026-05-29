@@ -1,7 +1,7 @@
 {
     "name": "catppuccin-mocha",
-    "version": "1.0.1",
-    "main": "dist/theme.css",
+    "version": "1.0.2",
+    "main": "dist/dist.css",
     "author": "JDC",
     "publishConfig": {
         "access": "public"
@@ -10,7 +10,7 @@
         "name": "Catppuccin Mocha",
         "content_type": "SN|Theme",
         "area": "themes",
-        "main": "dist/theme.css",
+        "main": "dist/dist.css",
         "showInGallery": true
     },
     "scripts": {
