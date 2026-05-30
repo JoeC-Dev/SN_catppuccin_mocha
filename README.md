@@ -1,43 +1,30 @@
 # Catppuccin Mocha for Standard Notes
 
-A [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) theme for [Standard Notes](https://standardnotes.com/).
+A dark [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) theme for [Standard Notes](https://standardnotes.com/).
 
-## Installation
+## Install in Standard Notes
 
-### Via URL (recommended)
+1. Open Standard Notes.
+2. Go to **Preferences → Appearance**.
+3. Under **Themes**, choose **Import from URL**.
+4. Paste:
 
-1. Open Standard Notes
-2. Go to **Preferences → Appearance**
-3. Select **Themes** and click **Import from URL**
-4. Paste the following URL:
-
-```
+```text
 https://listed.to/p/y3SJQstFfx
 ```
 
-## Building
+## Repository Contents
 
-Install dependencies and run the webpack build:
+- `main.css` — the theme stylesheet used by Standard Notes (`sn.main` in `package.json`).
+- `package.json` — extension metadata (name, version, repository).
 
-```bash
-npm install
-npm run build
-```
+## Catppuccin Mocha Palette
 
-The compiled CSS will be output to `dist/theme.css`.
-
-## Color Palette
-
-This theme uses the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin#-palette) palette — a dark, soothing color scheme with warm tones.
-
-| Role | Color |
-|---|---|
-| Background | `#1e1e2e` (Base) |
-| Foreground | `#cdd6f4` (Text) |
-| Accent | `#cba6f7` (Mauve) |
-| Success | `#a6e3a1` (Green) |
-| Warning | `#fab387` (Peach) |
-| Danger | `#f38ba8` (Red) |
-
-
-z
+| Role | Hex |
+| --- | --- |
+| Base | `#1e1e2e` |
+| Text | `#cdd6f4` |
+| Mauve | `#cba6f7` |
+| Green | `#a6e3a1` |
+| Peach | `#fab387` |
+| Red | `#f38ba8` |
