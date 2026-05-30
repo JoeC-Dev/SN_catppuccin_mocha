@@ -39,3 +39,4 @@ This theme uses the [Catppuccin Mocha](https://github.com/catppuccin/catppuccin#
 | Warning | `#fab387` (Peach) |
 | Danger | `#f38ba8` (Red) |
 
+zzzzz
