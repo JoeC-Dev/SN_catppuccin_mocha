@@ -94,6 +94,7 @@
     --sn-desktop-titlebar-ui-hover-color: var(--ctp-mauve);
 }
 
+/*
 #blocks-editor hr:after {
     background-color: var(--ctp-surface2);
 }
@@ -107,3 +108,4 @@
     background-color: var(--ctp-surface2);
     border-radius: 4px;
 }
+*/
