@@ -2,11 +2,7 @@
     "name": "catppuccin-mocha",
     "version": "1.0.7",
     "sn": {
-        "name": "Catppuccin Mocha",
-        "content_type": "SN|Theme",
-        "area": "themes",
-        "main": "main.css",
-        "showInGallery": true
+        "main": "main.css"
     },
     "repository": {
         "type": "git",
